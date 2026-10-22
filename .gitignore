@@ -1,0 +1,35 @@
+# Python build/cache artifacts
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+
+# Runtime checkpoints and externally downloaded weights
+checkpoints/*
+!checkpoints/.gitkeep
+!checkpoints/README.md
+weights/dinov2/*
+!weights/dinov2/.gitkeep
+weights/torchvision/*
+!weights/torchvision/.gitkeep
+!weights/README.md
+
+# Keep only the three README preview GIFs, not generated frames or logs.
+outputs/*
+!outputs/animations/
+outputs/animations/*
+!outputs/animations/re10k_000103/
+!outputs/animations/re10k_000384/
+!outputs/animations/re10k_000530/
+outputs/animations/re10k_000103/*
+outputs/animations/re10k_000384/*
+outputs/animations/re10k_000530/*
+!outputs/animations/re10k_000103/novel_view.gif
+!outputs/animations/re10k_000384/novel_view.gif
+!outputs/animations/re10k_000530/novel_view.gif
+
+# Editor and local environment files
+.vscode/
+.idea/
+.DS_Store
+.env

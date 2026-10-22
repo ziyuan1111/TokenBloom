@@ -1,0 +1,12 @@
+TokenBloom: Progressive Expansion of Spatial Tokens for Feed-Forward Gaussian Splatting
+Copyright 2026 Ziyuan Zhang
+Academic affiliation: East China Normal University
+Project repository: https://github.com/ziyuan1111/TokenBloom-Progressive-Expansion-of-Spatial-Tokens-for-Feed-Forward-Gaussian-Splatting
+
+This distribution includes original TokenBloom code and modified/extracted
+Apache-2.0 source files. Original copyright and SPDX notices in individual
+source files are retained.
+
+The DINOv2 and torchvision/ResNet weights are not distributed with this
+repository. Dataset-derived example images and visualizations are subject to
+the applicable dataset terms.
