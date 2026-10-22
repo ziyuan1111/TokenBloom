@@ -1,9 +1,7 @@
 # TokenBloom
 
-### Progressive Expansion of Spatial Tokens for Feed-Forward Gaussian Splatting
+Progressive Expansion of Spatial Tokens for Feed-Forward Gaussian Splatting
 
-TokenBloom reconstructs a 3D Gaussian scene from two calibrated context images
-and renders novel views.
 
 ## Visual Results
 
