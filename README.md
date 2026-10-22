@@ -1,4 +1,6 @@
-# TokenBloom: Progressive Expansion of Spatial Tokens for Feed-Forward Gaussian Splatting
+# TokenBloom
+
+### Progressive Expansion of Spatial Tokens for Feed-Forward Gaussian Splatting
 
 TokenBloom reconstructs a 3D Gaussian scene from two calibrated context images
 and renders novel views.
@@ -53,16 +55,16 @@ before the final novel-view rendering.
 
 ## RE10K Two-View Benchmark
 
+TokenBloom achieves competitive two-view novel-view synthesis quality while
+using substantially fewer Gaussian primitives than the listed token-based
+baseline.
+
 | Method | PSNR ↑ | SSIM ↑ | LPIPS ↓ | # Gaussians ↓ |
 | :-- | --: | --: | --: | --: |
 | MVSplat | 26.390 | 0.8690 | 0.1281 | 131K |
 | DepthSplat | 27.470 | 0.8890 | 0.1141 | 131K |
 | TokenGS | 28.410 | 0.9030 | 0.1352 | 262K |
 | TokenBloom (ours) | 28.168 | 0.9013 | 0.1298 | 92K |
-
-TokenBloom metrics were evaluated with the released best-PSNR checkpoint on
-the local RE10K evaluation index: 6,474 scenes and 19,422 target images. The
-final Gaussian count is fixed at 1,440 tokens × 64 child Gaussians = 92,160.
 
 ## Setup
 
@@ -200,7 +202,7 @@ citing:
 ## Acknowledgments and References
 
 The implementation of TokenBloom was developed with reference to the public
-codebases and ideas of **TokenGS** and **iLRM**. Please cite the following
+codebases and ideas of TokenGS and iLRM. Please cite the following
 works when they are relevant to your use:
 
 ```bibtex
